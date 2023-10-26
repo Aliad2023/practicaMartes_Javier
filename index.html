@@ -34,7 +34,7 @@
 
     <!-- links de estilos -->
     <link rel="stylesheet" href="css/style.css" />
-    
+
     <!-- Se cambia el tema de algunos navegadores -->
     <meta name="theme-color" content="#fafafa" />
     <!-- Código de las plataformas de Análisis -->
@@ -43,67 +43,77 @@
     <script src="preloader.js"></script>
   </head>
   <body>
-    
-      <!-- *** ESTRUCTURA SEMÁNTICA *** -->
-      <!-- Header (encabezado de la página, zona superior) -->
-      <header>
-        <nav>
-          <a class="logo"  href="">
-            <img class="" src="svg/FlechaHeader.svg" alt="logotipo">
-          </a>
-          <!-- nav (el navegador de toda la web) -->
-          <a href="servicios.html" class="link1">Servicios</a>
-          <a href="soporte.html" class="link2">Soporte</a>
-          <a href="contactar.html" class="link3">Contactar</a>
-          <!-- Botón -->
-          <a class="boton"  href="empezar" class="link4">Empezar</a>
-        </nav>
-      </header>
-      <!-- Main (centro de la página, zona central) -->
-      <main>
-        <!-- section y article (posibilidades dentro de main) -->
-      </main>
-      <!-- Footer (final de la página, zona inferior) -->
-      <footer>
-        <section class="footer">
-
-          <!-- logo -->
-          <a href="">
-            <img class="logotipo_Header" src="svg/FlechaFooter.svg" alt="logotipo">
-          </a>
+    <!-- *** ESTRUCTURA SEMÁNTICA *** -->
+    <!-- Header (encabezado de la página, zona superior) -->
+    <header>
+      <nav>
+        <a class="header__logo" href="">
+          <img class="" src="svg/FlechaHeader.svg" alt="logotipo" />
+        </a>
+        <!-- nav (el navegador de toda la web) -->
+        <a href="servicios.html" class="link1">Servicios</a>
+        <a href="soporte.html" class="link2">Soporte</a>
+        <a href="contactar.html" class="link3">Contactar</a>
+        <!-- Botón -->
+        <a class="boton" href="empezar" class="link4">Empezar</a>
+      </nav>
+    </header>
+    <!-- Main (centro de la página, zona central) -->
+    <main>
+      <!-- section y article (posibilidades dentro de main) -->
+    </main>
+    <!-- Footer (final de la página, zona inferior) -->
+    <footer>
+      <section class="footer">
+        <!-- logo -->
+        <a class="footer__logo" href="">
+          <img
+            class="logotipo_Header"
+            src="svg/FlechaFooter.svg"
+            alt="logotipo"
+          />
+        </a>
         <!-- Parrafo -->
-        <p class="texto_footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nemo omnis, fugit animi explicabo dolorum illo veritatis! Aperiam autem illum consectetur aut magnam harum expedita necessitatibus, odio dolores a pariatur accusamus quod sequi tempora totam, nisi maiores culpa repellat voluptatibus?</p>
+        <p class="texto_footer">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem nemo omnis, fugit animi explicabo dolorum illo
+          veritatis! Aperiam autem illum consectetur aut magnam harum expedita
+          necessitatibus, odio dolores a pariatur accusamus quod sequi tempora
+          totam, nisi maiores culpa repellat voluptatibus?
+        </p>
         <!-- lista de links de Servicios -->
-        <ul class="servicios">
+        <ul class="footer__servicios">Servicios
           <li>UX/UI Design</li>
           <li>Graphics Design</li>
           <li>WebI Design</li>
           <li>App Development</li>
         </ul>
         <!-- lista de links de SOporte -->
-        <ul class="soporte">
-          <li>+ 34 666 666</li>
-          <li>email@gmail.com</li>
-          <li>Mallorca</li>
+        <ul class="soporte">Soporte
+          <li><img src="svg/telefono.svg" alt="">+ 34 666 666</li>
+          <li><img src="svg/mail.svg" alt="">email@gmail.com</li>
+          <li><img src="svg/localizacion.svg" alt="">Mallorca</li>
         </ul>
         <!-- Copyright -->
-        <h6 class="texto_copyright">&copy;Copyright Javier Elias. Todos los derechos reservados</h6>
+        <h6 class="footer__copy">
+          &copy;Copyright Javier Elias. Todos los derechos reservados
+        </h6>
         <!-- RRSS -->
-        <a href="" target="_blank">
-          <img  src="svg/Pinterest.svg" alt="">
-        </a> 
-        <a href="" target="_blank">
-          <img  src="svg/Facebook.svg" alt="">
-        </a>
-        <a href="" target="_blank">
-          <img  src="svg/Twitter.svg" alt="">
-        </a>
-        <a href="" target="_blank">
-          <img  src="svg/Instagram.svg" alt="">
-        </a>
+        <article class="footer__redes">
+          <a href="" target="_blank">
+            <img src="svg/Pinterest.svg" alt="" />
+          </a>
+          <a href="" target="_blank">
+            <img src="svg/Facebook.svg" alt="" />
+          </a>
+          <a href="" target="_blank">
+            <img src="svg/Twitter.svg" alt="" />
+          </a>
+          <a href="" target="_blank">
+            <img src="svg/Instagram.svg" alt="" />
+          </a>
+        </article>
       </section>
-      </footer>
-    
-    
+    </footer>
   </body>
 </html>
